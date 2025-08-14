@@ -75,3 +75,9 @@ h1, h2, h3, label {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+/* Forçar texto branco em caixas de texto pós-relatório */
+textarea, .post-report input, .post-report textarea {
+    color: #ffffff !important;
+}
